@@ -26,7 +26,6 @@ section {
 
 #numbers {
     place-items: flex-start;
-    justify-content: flex-start;
 }
 
 .numbers {
@@ -42,6 +41,7 @@ section {
     width: 1em;
     word-wrap: break-word;
     font-size: 18px;
+    white-space: pre-wrap;
 }
 
 .numbers-inputs {
@@ -51,6 +51,11 @@ section {
 
 .the-input {
     position: absolute;
+    width: 4em;
+    height: 5em;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    place-self: center;
 }
 
 
